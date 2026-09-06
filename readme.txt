@@ -2,7 +2,7 @@
 Contributors: yildastudio
 Tags: form, giveaway, landing page, participant data, vmix
 Requires at least: 5.8
-Tested up to: 7.0
+Tested up to: 7.1
 Requires PHP: 7.4
 Stable tag: 1.0.0
 License: GPLv2 or later
@@ -63,6 +63,7 @@ The plugin is fully translated: Spanish (original language), English, Brazilian 
 5. Repeat step 3 for each additional form you want active at the same time (up to 7).
 6. Submissions appear in **Yilda Form → Entries**, grouped by form, exportable to Excel or CSV.
 7. Optional: check **Yilda Form → Security** to adjust the per-IP entry limit, and **Documentation** for the full guide with FAQs.
+8. New versions show up as a regular "update available" notice on the Plugins page — see the FAQ below for details.
 
 == Frequently Asked Questions ==
 
@@ -97,6 +98,10 @@ Yes — each design has its own field, order, color, banner, and text configurat
 = Does the plugin add its own privacy policy or terms and conditions? =
 
 No — those depend on your giveaway's own rules and your legal identity as the organizer, so the plugin can't write them for you. What it does do is tell WordPress which personal data it collects (name, city, contact, country, ID number, the custom question, and the IP for 24-48 hours): that text shows up ready to copy under **Settings → Privacy → Policy Guide**, for you to add to your site's privacy policy. The consent checkbox text also accepts a link, so you can point it directly at your policy.
+
+= How do I get notified about plugin updates? =
+
+Automatically — the plugin isn't listed on WordPress.org, but it checks its own release channel on GitHub and shows the exact same "update available" notice on the Plugins page as any other plugin, with a one-click **Update Now** button. No account or extra setup needed on your end.
 
 == Screenshots ==
 
